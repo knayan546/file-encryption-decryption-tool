@@ -34,15 +34,21 @@ python file_encryptor.py
 4.	Using the application:
    
 •	Select a file using the "Browse" button
+
 •	Enter a strong password
+
 •	Click "Encrypt File" or "Decrypt File"
+
 •	Monitor progress in the status area
 
 Security Notes
 
 •	The password is never stored or transmitted
+
 •	Each encryption generates new random salts and nonces
+
 •	Encrypted files include authentication tags to detect tampering
+
 •	The key derivation uses industry-standard PBKDF2 with high iteration count.
 
 Enhancement Options
