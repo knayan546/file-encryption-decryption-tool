@@ -1,11 +1,17 @@
 File Encryption/Decryption Tool with AES-256
 
-Below is a complete Python application with a Tkinter GUI that provides AES-256 encryption and decryption for files. The application includes:
+Below is a complete Python application with a Tkinter GUI that provides AES-256 encryption and decryption for files.
+
+The application includes:
 
 •	Secure key derivation with PBKDF2
+
 •	Authenticated encryption (GCM mode)
+
 •	File integrity verification
+
 •	User-friendly interface
+
 •	Progress tracking
 
 Features
